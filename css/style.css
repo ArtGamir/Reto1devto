@@ -1,0 +1,27 @@
+@media screen and (min-width: 980px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+        list-style: none;
+    }
+
+    .main-nav li {
+        margin: 0;
+    }
+
+    .nav-links {
+        margin: 20px;
+        color: black;
+        list-style: none;
+    }
+} 
