@@ -1,4 +1,13 @@
-.aside1{
+.callToAction {
+    padding: 1rem;
+    background: white;
+    color: grey;
+    box-shadow: 0 0 0 1px;
+    display: block;
+}
+
+.h2-text{
+    line-height: 1.25;
     margin-bottom: 1rem;
     font-size: 1.25rem;
     color: #242424;
@@ -6,12 +15,6 @@
 .aside2{
     margin-bottom: 1rem;
     color: #575757; 
-}
-
-.callToAction {
-    padding: 1rem;
-    background: white;
-    color: grey;
 }
 
 .caja2{
@@ -31,4 +34,11 @@
     outline: #b07a7a solid;
     margin-top: 1em;
     border-radius: 8px;
+  }
+
+  .flex-col.left {
+    
+    height: 100%;
+    flex: 2;
+    display: block;
   }
