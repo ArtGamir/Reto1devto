@@ -54,73 +54,102 @@
     height: 100%;
   }
 
-  @media screen and (min-width: 980px) {
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      padding-bottom: 0;
-      height: 70px;
-      align-items: center;
-    }
+.links a{
+  margin-right: 10px; 
+}
 
-    .main-nav {
-      display: flex;
-      margin-right: 30px;
-      flex-direction: row;
-      justify-content: flex-end;
-      list-style: none;
-    }
+.aqua span{
+  color: aqua;
+  text-decoration: none;
+}
 
-    .main-nav li {
-      margin: 0;
-    }
 
-    .nav-links {
-      margin: 20px;
-      color: black;
-      list-style: none;
-    }
 
-    .logo {
-      margin-top: 0;
-    }
+@media screen and (min-width: 980px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
 
-    .navbar-toggle {
-      display: none;
-    }
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+  }
 
-    .logo:hover,
-    .nav-links:hover {
-      color: rgba(0, 0, 0, 1);
-    }
+  .main-nav li {
+    margin: 0;
+  }
 
-    .flex-col.left {
-      outline: blue solid;
-      height: 100%;
-      flex: 2;
-      display: block;
-    }
+  .nav-links {
+    margin: 20px;
+    color: black;
+    list-style: none;
+  }
 
-    main {
-      flex: 4;
-      outline: red solid;
-      height: 100%;
-    }
+  .logo {
+    margin-top: 0;
+  }
 
-    .flex-col.right {
-      outline: green solid;
-      height: 100%;
-      flex: 2;
-      display: block;
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .flex-col.left {
+    outline: blue solid;
+    height: 100%;
+    flex: 1;
+    display: block;
+  }
+
+  main {
+    flex: 4;
+    outline: red solid;
+    height: 100%;
+  }
+
+  .flex-col.right {
+    outline: green solid;
+    height: 100%;
+    flex: 2;
+    display: block;
+  }
+
+    .callToAction {
+      height: 150px;
+      width: 100%;
+      outline: #f58989 solid;
+      border-radius: 8px;
     }
 
     .tags {
       height: 350px;
       width: 100%;
-      outline: #e00f0f solid;
+      outline: #b07a7a solid;
       margin-top: 1em;
       border-radius: 8px;
     }
+
+    .img {
+        height: 350px;
+        width: 100%;
+        outline: #d80f0f solid;
+        margin-top: 1em;
+        border-radius: 8px;
+      }
   }
+
+
+  
 
   @import "aside";
