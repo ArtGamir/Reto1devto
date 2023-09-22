@@ -97,7 +97,7 @@
     .flex-col.left {
       outline: blue solid;
       height: 100%;
-      flex: 1;
+      flex: 2;
       display: block;
     }
 
@@ -114,18 +114,13 @@
       display: block;
     }
 
-    .callToAction {
-      height: 150px;
-      width: 100%;
-      outline: #f58989 solid;
-      border-radius: 8px;
-    }
-
     .tags {
       height: 350px;
       width: 100%;
-      outline: #b07a7a solid;
+      outline: #e00f0f solid;
       margin-top: 1em;
       border-radius: 8px;
     }
   }
+
+  @import "aside";

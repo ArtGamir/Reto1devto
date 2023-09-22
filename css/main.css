@@ -90,7 +90,7 @@ main {
   .flex-col.left {
     outline: blue solid;
     height: 100%;
-    flex: 1;
+    flex: 2;
     display: block;
   }
   main {
@@ -104,17 +104,38 @@ main {
     flex: 2;
     display: block;
   }
-  .callToAction {
-    height: 150px;
-    width: 100%;
-    outline: #f58989 solid;
-    border-radius: 8px;
-  }
   .tags {
     height: 350px;
     width: 100%;
-    outline: #b07a7a solid;
+    outline: #e00f0f solid;
     margin-top: 1em;
     border-radius: 8px;
   }
+}
+.aside1 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #242424;
+}
+
+.aside2 {
+  margin-bottom: 1rem;
+  color: #575757;
+}
+
+.callToAction {
+  padding: 1rem;
+  background: white;
+  color: grey;
+}
+
+.caja2 {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.create {
+  margin-bottom: 0.25rem;
+  width: 100%;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */
