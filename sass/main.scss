@@ -54,6 +54,17 @@
     height: 100%;
   }
 
+.links a{
+  margin-right: 10px; 
+}
+
+.aqua span{
+  color: aqua;
+  text-decoration: none;
+}
+
+
+
   @media screen and (min-width: 980px) {
     .navbar {
       display: flex;
@@ -153,4 +164,15 @@
       margin-top: 1em;
       border-radius: 8px;
     }
+
+    .img {
+        height: 350px;
+        width: 100%;
+        outline: #d80f0f solid;
+        margin-top: 1em;
+        border-radius: 8px;
+      }
   }
+
+
+  
