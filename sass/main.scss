@@ -47,7 +47,7 @@
 
   main {
     flex: 1;
-    outline: red solid;
+    // outline: red solid;
     height: 100%;
   }*/
 /*navbar*/
@@ -67,10 +67,19 @@
       margin-right: 30px;    
       list-style: none;
     }
+  }
 
-    .main-nav li {
-      margin: 0;
-    }
+.links{
+  margin-top: 5px;
+}
+
+.links a{
+  
+  margin-right: 10px; 
+  text-decoration: none;
+  color: rgb(109, 108, 108);
+}
+
 
     .nav-toggle{ 
       align-items: flex-start;          
@@ -145,9 +154,222 @@
       top: 29px; } 
       
 
-    }  
+      
 
     
       
 
       
+
+.aqua span{
+  color: aqua;
+  
+}
+
+.aqua:hover{
+  border: 1px solid aqua;
+  background-color: rgba(170, 216, 216, 0.37);
+  border-radius: 5px;
+  padding: 2.5px;
+}
+
+.purple span{
+  color: purple;
+  
+}
+
+.purple:hover{
+  border: 1px solid purple;
+  background-color: rgba(100, 57, 100, 0.384);
+  border-radius: 5px;
+  padding: 2.5px;
+}
+
+.yellow span{
+  color: yellow;
+  
+}
+
+.yellow:hover{
+  border: 1px solid yellow;
+  background-color: rgba(232, 232, 130, 0.404);
+  border-radius: 5px;
+  padding: 2.5px;
+}
+
+.black span{
+  color: grey;
+  
+}
+
+.black:hover{
+  border: 1px solid grey;
+  background-color: rgba(128, 128, 128, 0.333);
+  border-radius: 5px;
+  padding: 2.5px;
+}
+
+.icons{
+  margin: 10px 20px;
+  display: flex;
+
+  
+}
+
+.icons a {
+  display: flex;
+  text-decoration: none;
+  color: grey;
+  margin-right: 20px;
+  
+}
+
+.icons a i {
+  width: 15px;
+  margin-right: 5px;
+  
+}
+
+.icons a p{
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.comments{
+  padding-top: 5px;
+  font-size: 15px;
+}
+
+.time{
+  font-size: 10px;
+  padding-top: 7px;
+}
+
+.button{
+  border: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 980px) {
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0;
+    height: 70px;
+    align-items: center;
+  }
+
+  .main-nav {
+    display: flex;
+    margin-right: 30px;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+  }
+
+  .main-nav li {
+    margin: 0;
+  }
+
+  .nav-links {
+    margin: 20px;
+    color: black;
+    list-style: none;
+  }
+
+  .logo {
+    margin-top: 0;
+  }
+
+  .navbar-toggle {
+    display: none;
+  }
+
+  .logo:hover,
+  .nav-links:hover {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  .flex-col.left {
+    outline: blue solid;
+    height: 100%;
+    flex: 1;
+    display: block;
+  }
+
+    main {
+      flex: 4;
+      // outline: red solid;
+      height: 100%;
+    }
+// me toca este
+    .flex-col.right {
+      //outline: green solid;
+      height: 100%;
+      flex: 2;
+      display: flex;
+      font-size: 18px;
+      text-decoration: none;
+      
+     
+    }
+
+    .bloque-enlaces{
+      li{
+        list-style: none;
+        padding: 8%;
+        outline: auto;
+        outline-color: lightgray;
+        background-color: #fff;
+        
+        a{
+          color: gray;
+          &:hover{
+            color: blue;
+          }
+          text-decoration: none;
+          
+        }
+        
+        h3{
+          color: black;
+          &:hover{
+            color: blue;
+          }
+        }
+      }
+    }
+
+    .callToAction {
+      height: 150px;
+      width: 100%;
+      outline: #f58989 solid;
+      border-radius: 8px;
+    }
+
+    .tags {
+      height: 350px;
+      width: 100%;
+      outline: #b07a7a solid;
+      margin-top: 1em;
+      border-radius: 8px;
+    }
+
+    .img {
+        height: 350px;
+        width: 100%;
+        outline: #d80f0f solid;
+        margin-top: 1em;
+        border-radius: 8px;
+        object-fit: contain;
+      }
+  }
+
+@import "aside";
+  
