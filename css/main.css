@@ -190,13 +190,26 @@ main {
     outline: green solid;
     height: 100%;
     flex: 2;
-    display: block;
+    display: flex;
+    font-size: 18px;
+    text-decoration: none;
   }
-  .callToAction {
-    height: 150px;
-    width: 100%;
-    outline: #f58989 solid;
-    border-radius: 8px;
+  .bloque-enlaces li {
+    list-style: none;
+    padding: 5%;
+  }
+  .bloque-enlaces li a {
+    color: gray;
+    text-decoration: none;
+  }
+  .bloque-enlaces li a:hover {
+    color: blue;
+  }
+  .bloque-enlaces li h3 {
+    color: black;
+  }
+  .bloque-enlaces li h3:hover {
+    color: blue;
   }
   .tags {
     height: 350px;
@@ -214,4 +227,39 @@ main {
     -o-object-fit: contain;
        object-fit: contain;
   }
+}
+.aside1 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #242424;
+}
+
+.aside2 {
+  margin-bottom: 1rem;
+  color: #575757;
+}
+
+.callToAction {
+  padding: 1rem;
+  background: white;
+  color: grey;
+}
+
+.caja2 {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.create {
+  margin-bottom: 0.25rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.tags {
+  height: 350px;
+  width: 100%;
+  outline: #b07a7a solid;
+  margin-top: 1em;
+  border-radius: 8px;
 }/*# sourceMappingURL=main.css.map */
