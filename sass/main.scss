@@ -106,12 +106,37 @@
       outline: red solid;
       height: 100%;
     }
-
+// me toca este
     .flex-col.right {
       outline: green solid;
       height: 100%;
       flex: 2;
-      display: block;
+      display: flex;
+      font-size: 18px;
+      text-decoration: none;
+     
+    }
+
+    .bloque-enlaces{
+      li{
+        list-style: none;
+        padding: 5%;
+        
+        a{
+          color: gray;
+          &:hover{
+            color: blue;
+          }
+          text-decoration: none;
+        }
+        
+        h3{
+          color: black;
+          &:hover{
+            color: blue;
+          }
+        }
+      }
     }
 
     .callToAction {
