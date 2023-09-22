@@ -99,7 +99,7 @@ main {
   .flex-col.left {
     outline: blue solid;
     height: 100%;
-    flex: 2;
+    flex: 1;
     display: block;
   }
   main {
@@ -113,10 +113,16 @@ main {
     flex: 2;
     display: block;
   }
+  .callToAction {
+    height: 150px;
+    width: 100%;
+    outline: #f58989 solid;
+    border-radius: 8px;
+  }
   .tags {
     height: 350px;
     width: 100%;
-    outline: #e00f0f solid;
+    outline: #b07a7a solid;
     margin-top: 1em;
     border-radius: 8px;
   }
@@ -154,4 +160,12 @@ main {
   margin-bottom: 0.25rem;
   width: 100%;
   justify-content: center;
+}
+
+.tags {
+  height: 350px;
+  width: 100%;
+  outline: #b07a7a solid;
+  margin-top: 1em;
+  border-radius: 8px;
 }/*# sourceMappingURL=main.css.map */
