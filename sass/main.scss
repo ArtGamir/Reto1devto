@@ -112,18 +112,50 @@
     display: block;
   }
 
-  main {
-    flex: 4;
-    outline: red solid;
-    height: 100%;
-  }
+    main {
+      flex: 4;
+      outline: red solid;
+      height: 100%;
+    }
+// me toca este
+    .flex-col.right {
+      outline: green solid;
+      height: 100%;
+      flex: 2;
+      display: flex;
+      font-size: 18px;
+      text-decoration: none;
+     
+    }
 
-  .flex-col.right {
-    outline: green solid;
-    height: 100%;
-    flex: 2;
-    display: block;
-  }
+    .bloque-enlaces{
+      li{
+        list-style: none;
+        padding: 5%;
+        
+        a{
+          color: gray;
+          &:hover{
+            color: blue;
+          }
+          text-decoration: none;
+        }
+        
+        h3{
+          color: black;
+          &:hover{
+            color: blue;
+          }
+        }
+      }
+    }
+
+    .callToAction {
+      height: 150px;
+      width: 100%;
+      outline: #f58989 solid;
+      border-radius: 8px;
+    }
 
     .tags {
       height: 350px;
@@ -142,5 +174,5 @@
       }
   }
 
-
-  @import "aside";
+@import "aside";
+  
