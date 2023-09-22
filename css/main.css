@@ -154,4 +154,39 @@ main {
     margin-top: 1em;
     border-radius: 8px;
   }
+}
+.aside1 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: #242424;
+}
+
+.aside2 {
+  margin-bottom: 1rem;
+  color: #575757;
+}
+
+.callToAction {
+  padding: 1rem;
+  background: white;
+  color: grey;
+}
+
+.caja2 {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+.create {
+  margin-bottom: 0.25rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.tags {
+  height: 350px;
+  width: 100%;
+  outline: #b07a7a solid;
+  margin-top: 1em;
+  border-radius: 8px;
 }/*# sourceMappingURL=main.css.map */
