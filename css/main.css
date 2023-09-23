@@ -290,8 +290,6 @@ main {
 }
 
 .icon {
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
   display: inline-block;
-  flex-shrink: 0;
+  padding: 20px;
 }/*# sourceMappingURL=main.css.map */
