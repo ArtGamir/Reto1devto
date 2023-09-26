@@ -234,6 +234,7 @@ links {
   position: relative;
   left: 1400px;
   top: 29px;
+<<<<<<< HEAD
 }
 
 .logo_dev {
@@ -263,6 +264,8 @@ links {
 .hola_2 {
   font-size: 10px;
   color: rgba(122, 122, 122, 0.616);
+=======
+>>>>>>> 38db6c92f2d8a451de75ec257bebc532bb65b89e
 }
 
 @media screen and (min-width: 980px) {
@@ -342,10 +345,13 @@ links {
     margin-top: 1em;
     background-size: cover;
     border-radius: 8px;
+<<<<<<< HEAD
   }
   .crayons-logo__image {
     display: flex;
     justify-content: center;
+=======
+>>>>>>> 38db6c92f2d8a451de75ec257bebc532bb65b89e
   }
 }
 .callToAction {
