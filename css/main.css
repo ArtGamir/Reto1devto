@@ -39,16 +39,6 @@ main {
   margin: 1em;
 }
 
-/*.flex-col.left,
-.flex-col.right {
-  display: none;
-}
-
-main {
-  flex: 1;
-  outline: red solid;
-  height: 100%;
-}*/
 /*navbar*/
 /*  Itzel y Oswaldo  */
 links {
@@ -148,15 +138,6 @@ links {
 
 /*  Itzel y Oswaldo  */
 @media screen and (min-width: 980px) {
-  /*.navbar {
-    display: block;
-    background-color: #fff;
-    justify-content: space-between;
-    padding-bottom: 0;
-    height: 90px;
-    align-items: center;
-    margin-left: auto;
-  }*/
   .main-nav {
     display: flex;
     margin-right: 30px;
@@ -168,22 +149,15 @@ links {
 }
 
 .nav-toggle {
-  align-items: flex-start;
-  margin-left: 10px;
-  font-size: 20px;
-  color: white;
-  background-color: black;
-  padding: 7px;
-  border-radius: 10px;
-  position: relative;
-  height: 40px;
-  left: 40px;
-  top: 25px;
+  margin: 15px;
+  width: 60px;
+  height: 50px;
+  top: 30px;
+  left: 20px;
 }
 
 .buttom1 {
   color: gray;
-  font-size: 35px;
   width: 450px;
   height: 50px;
   padding: 15px;
@@ -199,22 +173,23 @@ links {
   font-size: 15px;
   color: gray;
   list-style: none;
+  font-size: 15px;
   padding: 10px;
-  margin: 8px;
+  margin: 2px;
   width: 150px;
   border-radius: 10px;
   text-decoration: none;
   position: relative;
-  left: 550px;
-  top: 10px;
+  left: 750px;
+  top: 19px;
 }
 
-.buttom2:hover {
+.buttom3:hover {
   background-color: rgb(130, 198, 238);
   text-decoration: underline;
 }
 
-.buttom3:hover {
+.buttom2:hover {
   background-color: blue;
   color: white;
   text-decoration: underline;
@@ -223,6 +198,7 @@ links {
 .buttom3 {
   font-size: 15px;
   background-color: whitesmoke;
+  border: 2px solid blue;
   padding: 12px;
   margin: auto;
   width: -moz-fit-content;
@@ -230,8 +206,13 @@ links {
   border-radius: 10px;
   text-decoration: none;
   position: relative;
-  left: 300px;
-  top: 18px;
+  left: 500px;
+  top: 19px;
+}
+
+.aqua span {
+  color: aqua;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 980px) {
@@ -261,7 +242,7 @@ links {
     margin-top: 0;
   }
   .navbar-toggle {
-    display: none;
+    display: flex;
   }
   .logo:hover,
   .nav-links:hover {
