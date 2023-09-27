@@ -131,13 +131,17 @@
   padding-top: 7px;
 }
 
+main{
+  border-style: solid;
+  border-width: medium;
+}
+
 .img {
     height: 100%;
     width: 100%;
-    // outline: #d80f0f solid;
+    
     margin-top: 1em;
     object-fit: cover;
-    border-radius: 8px;
   }
 
 /*  Itzel y Oswaldo  */
@@ -329,6 +333,8 @@
         }
       }
     }
+    
+
 
 
     /*.tags {
@@ -342,7 +348,6 @@
     .img {
         height: 350px;
         width: 100%;
-        // outline: #d80f0f solid;
         margin-top: 1em;
         background-size: cover;
         border-radius: 8px;
