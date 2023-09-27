@@ -162,23 +162,17 @@ links {
 
 
     .nav-toggle{ 
-      align-items: flex-start;          
-      margin-left:10px;                    
-      font-size: 20px;      
-      color: white;
-      background-color:black;
-      padding: 5px;      
-      border-radius: 10px; 
-      position: relative; 
-      height: 50px; 
-      left:40px;
-      top:15px;        
+      margin:15px;      
+      width: 60px;
+      height: 50px;
+      top:30px;
+      left:20px;
+           
 
     }
 
     .buttom1{
-      color:gray;
-      font-size: 35px;      
+      color:gray;           
       width: 450px;
       height: 50px;
       padding:15px;
@@ -193,45 +187,49 @@ links {
     } 
     
     .buttom2{
-      font-size: 25px;    
+      font-size: 15px;    
       color:gray;
       list-style: none;
-      font-size: 30px;      
-      padding: 20px;      
+      font-size: 15px;      
+      padding: 10px;      
       margin:2px;
-      width: 50px; 
+      width: 150px; 
       border-radius: 10px;
       text-decoration: none;
       position:relative;
-      left:500px; 
-      top: 29px;  
+      left:750px; 
+      top: 19px;
+
+    
+       
     }
 
-    .buttom2:hover{
+    .buttom3:hover{
       background-color: rgb(130, 198, 238);
       text-decoration: underline;
 
     }
 
-    .buttom3:hover {
+    .buttom2:hover {
         background-color: blue;
         color: white; 
         text-decoration: underline;   
    
       }
     .buttom3 {  
-      font-size: 30px;      
-      color: blue;
-      background-color: whitesmoke;
-      padding: 17px;
+      font-size: 15px;      
+      background-color: whitesmoke;      
       border: 2px solid blue;
+      padding: 12px;
       margin:auto;
       width: fit-content; 
       border-radius: 10px; 
       text-decoration: none; 
       position:relative;
       left:500px;  
-      top: 29px; } 
+      top: 19px; 
+    } 
+      
       
 
       
@@ -281,7 +279,7 @@ links {
   }
 
   .navbar-toggle {
-    display: none;
+    display: flex;
   }
 
   .logo:hover,
