@@ -45,14 +45,14 @@
 
 
 /*  Itzel y Oswaldo  */
-links {
+.links {
   margin-top: 5px;
 }
 
 .links a {
   margin-right: 10px;
   text-decoration: none;
-  color: rgb(109, 108, 108);
+  color: rgb(109, 108, 108); 
 }
 
 .aqua span {
@@ -350,4 +350,5 @@ links {
   }
 
 @import "aside";
+@import "footer";
   

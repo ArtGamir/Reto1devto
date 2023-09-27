@@ -41,7 +41,7 @@ main {
 
 /*navbar*/
 /*  Itzel y Oswaldo  */
-links {
+.links {
   margin-top: 5px;
 }
 
@@ -380,4 +380,42 @@ links {
   max-width: 100%;
   width: auto;
   height: 15px;
+}
+
+footer {
+  margin-top: 300px;
+  min-height: 20vh;
+  width: 100%;
+  background: #c7c6c6;
+}
+
+footer a {
+  color: rgb(116, 114, 114);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: blue;
+}
+
+.footer-contain {
+  width: 100%;
+  padding-top: 30px;
+}
+
+.footer_title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.footer_a {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer_a a {
+  padding-right: 10px;
 }/*# sourceMappingURL=main.css.map */
