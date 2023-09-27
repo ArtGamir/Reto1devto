@@ -137,13 +137,17 @@ links {
   padding-top: 7px;
 }
 
+main {
+  border-style: solid;
+  border-width: medium;
+}
+
 .img {
   height: 100%;
   width: 100%;
   margin-top: 1em;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 8px;
 }
 
 /*  Itzel y Oswaldo  */
