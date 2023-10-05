@@ -193,26 +193,6 @@ main {
     font-size: 18px;
     text-decoration: none;
   }
-  .bloque-enlaces li {
-    list-style: none;
-    padding: 8%;
-    outline: auto;
-    outline-color: lightgray;
-    background-color: #fff;
-  }
-  .bloque-enlaces li a {
-    color: gray;
-    text-decoration: none;
-  }
-  .bloque-enlaces li a:hover {
-    color: blue;
-  }
-  .bloque-enlaces li h3 {
-    color: black;
-  }
-  .bloque-enlaces li h3:hover {
-    color: blue;
-  }
   .callToAction {
     height: 150px;
     width: 100%;
@@ -270,4 +250,25 @@ main {
   outline: #b07a7a solid;
   margin-top: 1em;
   border-radius: 8px;
+}
+
+.bloque-enlaces li {
+  list-style: none;
+  padding: 8%;
+  outline: auto;
+  outline-color: lightgray;
+  background-color: #fff;
+}
+.bloque-enlaces li a {
+  color: gray;
+  text-decoration: none;
+}
+.bloque-enlaces li a:hover {
+  color: blue;
+}
+.bloque-enlaces li h3 {
+  color: black;
+}
+.bloque-enlaces li h3:hover {
+  color: blue;
 }/*# sourceMappingURL=main.css.map */

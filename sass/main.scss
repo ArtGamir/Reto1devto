@@ -226,31 +226,7 @@
      
     }
 
-    .bloque-enlaces{
-      li{
-        list-style: none;
-        padding: 8%;
-        outline: auto;
-        outline-color: lightgray;
-        background-color: #fff;
-        
-        a{
-          color: gray;
-          &:hover{
-            color: blue;
-          }
-          text-decoration: none;
-          
-        }
-        
-        h3{
-          color: black;
-          &:hover{
-            color: blue;
-          }
-        }
-      }
-    }
+    
 
     .callToAction {
       height: 150px;
@@ -278,4 +254,4 @@
   }
 
 @import "aside";
-  
+@import "asideRight";
