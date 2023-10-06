@@ -386,6 +386,27 @@ main {
   height: 15px;
 }
 
+.bloque-enlaces li {
+  list-style: none;
+  padding: 8%;
+  outline: auto;
+  outline-color: lightgray;
+  background-color: #fff;
+}
+.bloque-enlaces li a {
+  color: gray;
+  text-decoration: none;
+}
+.bloque-enlaces li a:hover {
+  color: blue;
+}
+.bloque-enlaces li h3 {
+  color: black;
+}
+.bloque-enlaces li h3:hover {
+  color: blue;
+}
+
 footer {
   margin-top: 300px;
   min-height: 20vh;
